@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="genderRadioGroup" type="id">genderRadioGroup</item>
+    <item name="ageEditText" type="id">ageEditText</item>
+    <item name="medicationsEditText" type="id">medicationEditText</item>
+    <item name="symptomsEditText" type="id">symptomsEditText</item>
+    <item name="evaluateButton" type="id">evaluateButton</item>
+    <item name="emergencyButton" type="id">emergencyButton</item>
+    <item name="resultTextView" type="id">resultTextView</item>
+    <item name="maleRadioButton" type="id">maleRadioButton</item>
+    <item name="femaleRadioButton" type="id">femaleRadioButton</item>
+    <item name="otherRadioButton" type="id">otherRadioButton</item>
+</resources>
