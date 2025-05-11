@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ONYX</string>
+    <string name="analysis_result">Analysis Result</string>
+    <string name="result_will_be_displayed_here">[Result will be displayed here]</string>
+    <string name="back">Back</string>
+    <string name="enter_your_age">Enter your age:</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="select_your_gender">Select your gender:</string>
+    <string name="onyx">ONYX</string>
+    <string name="enter_your_prescribed_taken_medications">Enter your prescribed/taken medications:</string>
+    <string name="e_g_30">e.g., 30</string>
+    <string name="list_your_medications">List your medications</string>
+    <string name="describe_your_symptoms">Describe your symptoms:</string>
+    <string name="how_do_you_feel">How do you feel?:</string>
+    <string name="describe_how_you_feel">Describe how you feel</string>
+    <string name="analyze">Analyze</string>
+</resources>

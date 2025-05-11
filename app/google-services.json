@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "284491883296",
+    "firebase_url": "https://onyx-app-2a5c4-default-rtdb.firebaseio.com",
+    "project_id": "onyx-app-2a5c4",
+    "storage_bucket": "onyx-app-2a5c4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284491883296:android:63b3d0f2dddb6790916d45",
+        "android_client_info": {
+          "package_name": "onyx.healthcare.sk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1777UnsCNgGdKjC8KjHJVD-hs946JZV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

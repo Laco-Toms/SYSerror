@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.HealthAIAssistant" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#12212A</item>
+        <item name="colorPrimaryVariant">#1E313D</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/Teal</item>
+        <item name="colorSecondaryVariant">@color/Teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">#12212A</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BackGround">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/BackGround">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginBottom="40sp"
+            android:background="@color/Teal_700">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ONYX"
+                android:textColor="@color/BackGround"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/select_your_gender"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroupGender"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="94dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/male"
+                    android:textColor="@color/white"/>
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="95dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/female"
+                    android:textColor="@color/white"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_your_age"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/editTextAge"
+                android:layout_width="328dp"
+                android:layout_height="57dp"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/e_g_30"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/Teal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_your_prescribed_taken_medications"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/editTextMedications"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="top|start"
+                android:hint="@string/list_your_medications"
+                android:inputType="text"
+                android:minHeight="80dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/Teal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/describe_your_symptoms"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/editTextSymptoms"
+                android:layout_width="328dp"
+                android:layout_height="74dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="top|start"
+                android:hint="@string/describe_your_symptoms"
+                android:minHeight="100dp"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/Teal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/how_do_you_feel"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/editTextFeeling"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:gravity="top|start"
+                android:hint="@string/describe_how_you_feel"
+                android:inputType="text"
+                android:minHeight="80dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/Teal"/>
+
+            <Button
+                android:id="@+id/analyzeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/analyze"
+                android:backgroundTint="@color/Teal_700"
+                android:textColor="@color/BackGround"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
